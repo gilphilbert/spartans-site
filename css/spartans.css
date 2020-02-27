@@ -7013,7 +7013,7 @@ footer {
   z-index: 2; }
 
 /* SPECIFIC STYLING */
-@media screen and (min-width: tablet) {
+@media screen and (min-width: 769px) {
   .navbar {
     min-height: 100px; } }
 .navbar .navbar-brand {
