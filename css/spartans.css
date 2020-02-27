@@ -6953,6 +6953,9 @@ label.panel-block {
   font-family: "Noto Sans", BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 19px; }
 
+html {
+  scroll-behavior: smooth; }
+
 p {
   padding-bottom: 25px; }
 

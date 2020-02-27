@@ -23,3 +23,8 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 })
+
+function scrollToAnchor (el) {
+  var e = document.querySelector('#' + el)
+  e.scrollIntoView()
+}
