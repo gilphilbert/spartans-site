@@ -7027,7 +7027,7 @@ section.has-half-image {
     section.has-half-image {
       background-image: none !important; } }
 section.hero {
-  background-image: url(/img/hero.jpg);
+  background-image: url(../img/hero.jpg);
   height: calc(100vh - 100px);
   background-size: cover;
   background-position: center; }
@@ -7068,7 +7068,7 @@ section.has-extra-wide-margins {
       box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.8); } }
 
 .has-background-logo-simplified {
-  background-image: url(img/logo-simplified.svg);
+  background-image: url(../img/logo-simplified.svg);
   background-repeat: no-repeat;
   background-size: 30%;
   background-position: center; }
