@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Bulma is a free, open source CSS framework based on Flexbox and built with Sass. It's 100% responsive, fully modular, and available for free.">
 
-    <title>Home</title>
+    <title>Elite Spartans - Personal Training Gym And Fitness Bootcamps In San Jose, CA</title>
     
     <link rel="stylesheet" href="css/spartans.css">
     <link href="https://fonts.googleapis.com/css?family=Muli:700,400|Noto+Sans&display=swap" rel="stylesheet">
     <link href="css/fonts/destroy.css" rel="stylesheet">
+    <script src="js/spartans.js"></script>
 
     <style>
       .navbar.is-dark .navbar-end .navbar-link.is-active,
@@ -174,10 +175,10 @@
     </section>
 
     <section class="has-background-black has-text-white has-extra-wide-margins has-position-relative">
-      <figure class="image is-400x400 is-bottom-50">
+      <figure class="image is-400x400 is-bottom-50 z-index-1">
         <img src="img/man-flex.png" />
       </figure>
-      <div class="container z-index-2">
+      <div class="container z-index-mobile-1">
         <div class="columns">
           <div class="column is-5">
             <h1 class="title is-uppercase">
@@ -185,7 +186,7 @@
             </h1>
             <p>This is not your average gym! Our team has lots of areas of specialism so we can tailor your experience based on your needs. We want to make sure you enjor your experience - after all, if you enjoy it you'll want to keep it up! From bodybuilding through event training all the way to weight loss and kettlebell specialism, we can pair you with a trainer who will build a fitness program just for you.</p>
           </div>
-          <div class="column is-6 is-offset-1 has-background-logo-simplified">
+          <div class="column is-6 is-hidden-mobile is-offset-1 has-background-logo-simplified">
           </div>
         </div>
       </div>
@@ -195,7 +196,7 @@
       <div class="container">
         <div class="columns">
           <div class="column is-full">
-            <video controls src="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4" poster="img/video-preview.jpg" height="480">
+            <video class="z-index-2" controls src="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4" poster="img/video-preview.jpg" height="480">
               Sorry, your browser doesn't support embedded videos, but don't worry, you can <a href="https://archive.org/details/BigBuckBunny_124">download it</a> and watch it with your favorite video player!        
             </video>
           </div>
